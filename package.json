@@ -1,0 +1,18 @@
+{
+  "name": "atom-percolate-rosetta",
+  "main": "./lib/atom-percolate-rosetta",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-percolate-rosetta:find-imports"
+  },
+  "repository": "https://github.com/maxkostow/atom-percolate-rosetta",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

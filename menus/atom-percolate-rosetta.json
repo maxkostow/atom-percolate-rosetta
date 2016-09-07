@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Find file imports",
+        "command": "atom-percolate-rosetta:find-imports"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-percolate-rosetta",
+          "submenu": [
+            {
+              "label": "Find file imports",
+              "command": "atom-percolate-rosetta:find-imports"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
